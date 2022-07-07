@@ -1,0 +1,206 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.flipkart-header {
+	background-color: blue;
+}
+.header {
+	/* border: 2px solid black; */
+	margin: 0 auto;
+	width: 1200px;
+}
+.header .title {
+	/* border: 2px solid red; */
+	display: inline-block;
+	font-size: 24px;
+	font-style: oblique;
+	font-weight: bold;
+	color: yellow;
+	margin-top: 4px;
+}
+.header #search {
+	width: 500px;
+	margin-left: 10px;
+	margin-top: 11px;
+	border-radius: 2px;
+	padding: 7px;
+	border: none;
+	/* border: 3px solid red; */
+	outline: none;
+}
+
+.header #navlist a {
+	color: white;
+	text-decoration-line: none;
+}
+
+.header #navlist {
+	display: inline-flex;
+	list-style-type: none;
+	float: right;
+	font-size: 20px;
+	/* border: 2px solid red; */
+}
+.header #navlist a:hover {
+	color: white;
+	border-bottom: 1px solid white;
+}
+.header::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.header #button1 {
+	border: none;
+	background-color: white;
+	color: blue;
+	padding: 5px 20px;
+	margin-top: 11px;
+	font-size: 18px;
+}
+.header #navlist li {
+	padding: 10px 20px;
+	margin: 5px;
+}
+.header i {
+	color: white;
+	margin-left: 20px;
+	margin-top: 14px;
+}
+img {
+	height: 75px;
+}
+.items {
+	display: inline-block;
+	margin: 5px 50px;
+}
+.product-category {
+	display: inline-flex;
+	justify-content: center;
+}
+
+/* Login Page------------------------------------------------------- */
+
+.avtar {
+	margin-top: 10px;
+}
+.product-category a {
+	color: black;
+	text-decoration-line: none;
+}
+
+/* -------------------------view-width-image---- */
+.view-width-image img {
+	margin-top: 20px;
+	width: 100%;
+	height: 300px;
+}
+/* ----------------------Menu of mobile------- */
+
+.heading {
+	font-size: 24px;
+	margin: 15px 20px;
+}
+.mobile-items {
+	margin: 14px 14px;
+	padding: 14px;
+	overflow: none;
+	width: 150px;
+}
+.mobile-items p {
+	width: 150px;
+}
+.headphone-list {
+	width: 100%;
+	overflow-x: none;
+	overflow-y: scroll;
+	display: inline-flex;
+}
+.change-color {
+	color: seagreen;
+}
+/* ----------button--------- */
+input[type='button'] {
+	width: 150px;
+	margin: 5px 0px;
+	padding: 2px;
+	outline: none;
+	cursor: pointer;
+	background-color: dodgerblue;
+	color: white;
+	border: none;
+}
+/* -----------Product Page ------*/
+.content-of-product {
+	width: 1400px;
+	margin: 0 auto;
+}
+.product-img {
+	margin: 20px 27px;
+	width: 250px;
+	height: 500px;
+	display: inline-block;
+}
+.product-btn {
+	width: 150px;
+	margin: 5px 0px;
+	padding: 15px 25px;
+	outline: none;
+	cursor: pointer;
+	background-color: goldenrod;
+	color: white;
+	border: none;
+}
+.buy-btn {
+	width: 150px;
+	margin: 5px 0px;
+	padding: 15px 25px;
+	outline: none;
+	cursor: pointer;
+	background-color: darkorange;
+	color: white;
+	border: none;
+}
+.product-of-flipkart {
+	padding: 20px 30px;
+	margin-top: 30px;
+	margin-left: 50px;
+	display: inline-block;
+	box-shadow: 0px 0px 10px 3px rgba(201, 189, 189, 0.993);
+}
+.product-data {
+	width: 65%;
+}
+.product-data {
+	line-height: 1.6;
+	padding: 7px;
+	float: right;
+	margin-top: 20px;
+}
+.product-data::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.product-data .rating {
+	background-color: green;
+	color: white;
+	display: inline-block;
+	border-radius: 3px;
+	padding: 0px 5px;
+}
+.throughline {
+	text-decoration: line-through;
+}
+.offers {
+	font-weight: 600;
+}
+.offer-list {
+	list-style-type: square;
+}
+.bg-color-for-offer {
+	color: lightslategray;
+}
